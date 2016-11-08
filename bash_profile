@@ -26,7 +26,7 @@ portalspeak() {
 }
 
 openportal() {
-	cd /Users/Keenan/Documents/.portal
+	cd $USER/Documents/.portal
 	clear
 }
 

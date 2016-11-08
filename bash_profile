@@ -1,4 +1,4 @@
-alias welcome="say Hello Keenan. I hope you are well. Lets get to work. shall we?"
+alias welcome="say Hello $USER. I hope you are well. Lets get to work. shall we?"
 #welcome is for the sake of nicety.
 
 export PORTAL_SPEAK=on
@@ -177,8 +177,8 @@ new.year() {
 }
 
 portal.complete() {
-	echo Congratulations, Keenan. You completed the $1 portal! Have a nice rest, and get ready to start again soon.
-	say Congratulations Keenan. You completed the $1 portal! Have a nice rest, and get ready to start again soon.
+	echo Congratulations, $USER. You completed the $1 portal! Have a nice rest, and get ready to start again soon.
+	say Congratulations $USER. You completed the $1 portal! Have a nice rest, and get ready to start again soon.
 }
 
 portal.all() {
